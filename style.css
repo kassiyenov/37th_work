@@ -1,0 +1,21 @@
+body {
+  background: blue;
+}
+a {
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  text-decoration: none;
+}
+h2 {
+  color: white;
+}
+div {
+  color: white;
+}
+#container {
+  width: 500px;
+  height: auto;
+  margin: 100px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <form>
+      Date:
+      <input type="text" name="date">
+    </form>
+    <div id="table-parent">
+      <h1>
+        January 2012
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="off"><a class="day" href="#">26</a></td>
+            <td class="off"><a class="day" href="#">27</a></td>
+            <td class="off"><a class="day" href="#">28</a></td>
+            <td class="off"><a class="day" href="#">29</a></td>
+            <td class="off"><a class="day" href="#">30</a></td>
+            <td class="off"><a class="day" href="#">31</a></td>
+            <td><a class="day" href="#">1</a></td>
+          </tr>
+          <tr>
+            <td><a class="day" href="#">2</a></td>
+            <td><a class="day" href="#">3</a></td>
+            <td><a class="day" href="#">4</a></td>
+            <td><a class="day" href="#">5</a></td>
+            <td><a class="day" href="#">6</a></td>
+            <td><a class="day" href="#">7</a></td>
+            <td><a class="day" href="#">8</a></td>
+          </tr>
+          <tr>
+            <td><a class="day" href="#">9</a></td>
+            <td><a class="day" href="#">10</a></td>
+            <td><a class="day" href="#">11</a></td>
+            <td><a class="day" href="#">12</a></td>
+            <td><a class="day" href="#">13</a></td>
+            <td><a class="day" href="#">14</a></td>
+            <td><a class="day" href="#">15</a></td>
+          </tr>
+          <tr>
+            <td><a class="day" href="#">16</a></td>
+            <td><a class="day" href="#">17</a></td>
+            <td><a class="day" href="#">18</a></td>
+            <td><a class="day" href="#">19</a></td>
+            <td><a class="day" href="#">20</a></td>
+            <td><a class="day" href="#">21</a></td>
+            <td><a class="day" href="#">22</a></td>
+          </tr>
+          <tr>
+            <td><a class="day" href="#">23</a></td>
+            <td><a class="day" href="#">24</a></td>
+            <td><a class="day" href="#">25</a></td>
+            <td><a class="day" href="#">26</a></td>
+            <td><a class="day" href="#">27</a></td>
+            <td><a class="day" href="#">28</a></td>
+            <td><a class="day" href="#">29</a></td>
+          </tr>
+          <tr>
+            <td><a class="day" href="#">30</a></td>
+            <td><a class="day" href="#">31</a></td>
+            <td class="off"><a class="day"  href="#">1</a></td>
+            <td class="off"><a class="day"  href="#">2</a></td>
+            <td class="off"><a class="day"  href="#">3</a></td>
+            <td class="off"><a class="day"  href="#">4</a></td>
+            <td class="off"><a class="day"  href="#">5</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+<!--  <script src="js/jquery-3.3.1.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/calendar.jquery.js"></script>
+  <script>
+    $("#container").calendar();
+  </script>
+</body>
+</html>
